@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assert/styles/style.css">
+    <link rel="stylesheet" href="assert/styles/cart.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <!-- main menu -->
+            <div class="mainMenu">
+                <ul class="menu">
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">pages</a></li>
+                    <li><a href="#">portfilio</a></li>
+                    <li><a href="#">shop</a></li>
+                    <li><a href="#">blog</a></li>
+                </ul>
+                <div class="logo">LOGO</div>
+                <div class="search">
+                    <div>
+                        <input type="text" placeholder="Search" id="search">
+                        <button><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+
+                <div class="icons">
+                    <div class="cart">
+                        <a href="#" id="cartshop">
+                            <i class="bi bi-bag"></i>
+                            <span id="numberCart">(0)</span>
+                        </a>
+                    </div>
+
+                    <div class="wishes">
+                        <a href="#">
+                            <i class="bi bi-heart"></i>
+                            <span id="numberWish">(0)</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- scroll menu -->
+            <!-- mobile menu -->
+        </header>
+        <div class="cartBody">
+            <div class="paginationTop">
+                <a href="#">Home</a>/
+                <a href="index.html">Shop</a>/
+                <a href="#">Cart</a>
+            </div>
+            <div class="inner">
+                <div class="tr">
+                    <span>product</span>
+                    <span>price</span>
+                    <span>QUANTITY</span>
+                    <span>SUBTOTAL</span>
+                </div>
+                <!-- adding item -->
+                <div class="cart-item" id="cart-item"></div>
+                <button id="update">update cart <i class="bi bi-arrow-right"></i></button>
+
+                <div class="totalbax">
+                    <p class="h1">CART TOTALS</p>
+                    <div>
+                        <div>subtotal:</div><span id="subtotal" >30$</span>
+                    </div>
+                    <div>
+                        <div>total:</div><span id="total">30$</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="footer">
+        <div>
+            <h1><a href="https://github.com/masiimc" target="_blank">Masome Mahmudi</a></h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum doloribus, nisi ratione voluptate esse
+                accusamus sit soluta fugit que.</p>
+        </div>
+
+        <div>
+            <p>Contact Me</p>
+            <a href="mailto:springmasome@gmail.com">email</a>
+            <a href="https://github.com/masiimc" target="_blank">github</a>
+            <a href="https://www.linkedin.com/in/masome-spring" target="_blank">linkdin</a>
+        </div>
+    </div>
+    <script src="js/cart.js"></script>
+</body>
+
+</html>
