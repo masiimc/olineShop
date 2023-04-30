@@ -9,3 +9,7 @@ There are two other options on the products, the add to favorites button and the
 
 ![Screenshot (33)](https://user-images.githubusercontent.com/116202175/235372795-d9759a88-a858-4144-b662-b336fa5d5e79.png)
 ![Screenshot (41)](https://user-images.githubusercontent.com/116202175/235372816-27c3d286-1324-4af8-b3e1-c86faa777bea.png)
+
+# Shop Page :
+![Screenshot (34)](https://user-images.githubusercontent.com/116202175/235372882-3a040e27-af96-4b66-b4ea-6ad197bd27f6.png)
+![Screenshot (35)](https://user-images.githubusercontent.com/116202175/235372889-b962a97c-04f3-4e56-b5a4-d1fe973e578d.png)
